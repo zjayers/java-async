@@ -10,8 +10,8 @@ public class ThreadDemo {
         // Print out the current Thread name
         System.out.printf("Main Thread Name: %s%n", Thread.currentThread().getName());
 
-        //runDownloadFileTask();
-        //runInterruptFileTask();
+        runDownloadFileTask();
+        runInterruptFileTask();
     }
 
     private static void runDownloadFileTask() {
